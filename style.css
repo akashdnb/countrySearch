@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding-top: 0;
+    font-family: sans-serif;
+  }
+  
+  body {
+      font-size: 15pt;
+      background-color: burlywood;
+      background-image:url("img1.jpg");
+      background-size: 102%;
+      background-repeat: repeat-y;
+      background-attachment: fixed;
+  }
+  h2{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  
+  div.main{
+    width: 420px;
+    text-align: center;
+    margin: 10px auto 20px auto;
+    padding :10px;
+  }
+  
+  
+  div.search{
+    padding:10px auto 5px auto;
+    font-size: 20px;
+  }
+  
+  #searchBox{
+    border-radius: 22px;
+    font-size:20px;
+    padding: 5px;
+    color: white;
+    padding-left: 10px;
+    border-color: white;
+    outline: none;
+    background: rgba(215,168,112,0.7);
+    
+  }
+  ::placeholder{
+    color:white;
+    opacity: 0.;
+  }
+  
+  #searchBtn{
+    font-size: 22px;
+    color: white;
+    font-style: bold;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+      border-color: white;
+    background: rgba(60,38,22,0.8);
+  }
+  #searchBtn.hover{
+    font-style: bold;
+  }
+  #searchBtn.active{
+    background-color:red;
+  }
+  
+  div.countryList{
+    background-color: transparent;
+    width:250px;
+    position: relative;
+    margin-left: 5%;
+    text-align: left;
+    font-style: 18px;
+  }
+  li{
+    list-style-type: none;
+    border-radius: 10px;
+    font-size: 22px;
+    padding-left: 20px;
+    margin-top: 5px;
+    color: black;
+    background-color: rgba(215,168,112,0.9);
+    
+  }
+  
+  
